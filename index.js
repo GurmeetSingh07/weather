@@ -18,6 +18,7 @@ function getData() {
       document.getElementById("time").innerHTML = data.current.last_updated;
       document.getElementById("condition").innerHTML =
         data.current.condition.text;
-      document.getElementById("icon").src = data.current.condition.icon;
+      document.getElementById("icon").src =
+        "https://" + data.current.condition.icon;
     });
 }
