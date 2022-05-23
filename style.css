@@ -1,0 +1,62 @@
+.input {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 70px;
+}
+
+#city {
+  height: 20px;
+  width: 230px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(233, 12, 12, 0.301);
+}
+#submit {
+  background-color: lawngreen;
+  color: black;
+  border: none;
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#details {
+  border: 1px solid black;
+  padding: 5px;
+  margin: auto;
+  margin-top: -20px;
+}
+#details td {
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+th {
+  border: 1px solid black;
+  text-transform: uppercase;
+  background-color: rgb(3, 3, 2);
+  border-radius: 5px;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  background-color: lightblue;
+  background-image: url("2275.png");
+  background-repeat: no-repeat;
+  animation: rotation 8s infinite linear;
+  height: 400px;
+  width: 700px;
+  border-radius: 20px;
+  box-shadow: 20px red;
+  box-shadow: 0 4px 8px 0 rgba(233, 12, 12, 0.301),
+    0 6px 20px 0 rgba(15, 110, 235, 0.897);
+}
